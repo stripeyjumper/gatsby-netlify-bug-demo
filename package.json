@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-netlify-bug-demo",
+  "description": "Demo of problem with gatsby-plugin-netlify",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrew Bain",
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.0-beta.64",
+    "gatsby-plugin-netlify": "^2.0.0-beta.4",
     "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -25,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/rbv-andrewb/gatsby-netlify-bug-demo"
   }
 }
